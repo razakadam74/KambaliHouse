@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Wa Business Space for Rent</title>
+  
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+
+  <!-- Lightbox2 CSS -->
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.11.4/css/lightbox.min.css" rel="stylesheet">
+  
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Roboto', sans-serif;
+      color: #333;
+      line-height: 1.6;
+    }
+
+    header {
+      background: linear-gradient(to right, #003366, #005f73);
+      color: white;
+      padding: 1rem 2rem;
+      text-align: center;
+      position: sticky;
+      top: 0;
+      z-index: 1000;
+    }
+
+    header h1 {
+      margin: 0.5rem 0;
+    }
+
+    nav {
+      margin-top: 0.5rem;
+    }
+
+    nav a {
+      color: white;
+      margin: 0 1rem;
+      text-decoration: none;
+      font-weight: 500;
+    }
+
+    nav a:hover {
+      text-decoration: underline;
+    }
+
+    section {
+      padding: 3rem 2rem;
+      max-width: 1100px;
+      margin: auto;
+    }
+
+    #about {
+      text-align: center;
+    }
+
+    #about h2 {
+      color: #003366;
+    }
+
+    /* Gallery */
+    #gallery h2 {
+      text-align: center;
+      margin-bottom: 2rem;
+      color: #003366;
+    }
+
+    .gallery-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+      gap: 1rem;
+    }
+
+    .gallery-grid img {
+      width: 100%;
+      border-radius: 6px;
+      transition: transform 0.3s ease;
+      cursor: pointer;
+    }
+
+    .gallery-grid img:hover {
+      transform: scale(1.05);
+    }
+
+    /* Features */
+    #features h2 {
+      text-align: center;
+      margin-bottom: 2rem;
+      color: #003366;
+    }
+
+    .features-list {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 1.5rem;
+    }
+
+    .feature {
+      background: #f9f9f9;
+      padding: 1.5rem;
+      border-radius: 8px;
+      text-align: center;
+      box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+    }
+
+    /* Contact */
+    #contact {
+      background: #f0f0f0;
+      border-radius: 8px;
+      padding: 2rem;
+      text-align: center;
+    }
+
+    #contact h2 {
+      color: #003366;
+    }
+
+    #contact a {
+      display: inline-block;
+      margin-top: 1rem;
+      background: #005f73;
+      color: white;
+      padding: 0.8rem 1.5rem;
+      border-radius: 5px;
+      text-decoration: none;
+      transition: background 0.3s;
+    }
+
+    #contact a:hover {
+      background: #0a9396;
+    }
+
+    /* Footer */
+    footer {
+      background: #003366;
+      color: white;
+      text-align: center;
+      padding: 1rem;
+      margin-top: 2rem;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>Business Space for Rent – Wa</h1>
+    <nav>
+      <a href="#about">About</a>
+      <a href="#gallery">Gallery</a>
+      <a href="#features">Features</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </header>
+
+  <section id="about">
+    <h2>About the Property</h2>
+    <p>
+      Prime business space available in Wa, ideal for banks, NGOs, offices, and general businesses.
+      Located in a strategic area with easy access and high visibility.
+    </p>
+  </section>
+
+  <section id="gallery">
+    <h2>Gallery</h2>
+    <div class="gallery-grid">
+      <a href="https://source.unsplash.com/800x600/?office,building" data-lightbox="building" data-title="Front View"><img src="https://source.unsplash.com/400x300/?office,building" alt="Building 1"></a>
+      <a href="https://source.unsplash.com/800x600/?modern,office" data-lightbox="building" data-title="Reception"><img src="https://source.unsplash.com/400x300/?modern,office" alt="Building 2"></a>
+      <a href="https://source.unsplash.com/800x600/?workspace" data-lightbox="building" data-title="Office Interior"><img src="https://source.unsplash.com/400x300/?workspace" alt="Building 3"></a>
+      <a href="https://source.unsplash.com/800x600/?conference,room" data-lightbox="building" data-title="Conference Room"><img src="https://source.unsplash.com/400x300/?conference,room" alt="Building 4"></a>
+      <a href="https://source.unsplash.com/800x600/?architecture,modern" data-lightbox="building" data-title="Building Exterior"><img src="https://source.unsplash.com/400x300/?architecture,modern" alt="Building 5"></a>
+      <a href="https://source.unsplash.com/800x600/?lobby" data-lightbox="building" data-title="Spacious Lobby"><img src="https://source.unsplash.com/400x300/?lobby" alt="Building 6"></a>
+    </div>
+  </section>
+
+  <section id="features">
+    <h2>Key Features</h2>
+    <div class="features-list">
+      <div class="feature">
+        <h3>Prime Location</h3>
+        <p>Situated in Wa with high accessibility and visibility for customers.</p>
+      </div>
+      <div class="feature">
+        <h3>Spacious Layout</h3>
+        <p>Ample space for offices, banks, and large organizations.</p>
+      </div>
+      <div class="feature">
+        <h3>Modern Facilities</h3>
+        <p>Secure, well-structured, and designed for professional use.</p>
+      </div>
+    </div>
+  </section>
+
+  <section id="contact">
+    <h2>Contact Us</h2>
+    <p>Interested in renting this property? Get in touch today.</p>
+    <p><strong>Email:</strong> yourname@example.com</p>
+    <p><strong>Phone:</strong> +233 24 123 4567</p>
+    <a href="mailto:yourname@example.com">Send an Email</a>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 Wa Business Rentals. All Rights Reserved.</p>
+  </footer>
+
+  <!-- Lightbox2 JS -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.11.4/js/lightbox.min.js"></script>
+</body>
+</html>
